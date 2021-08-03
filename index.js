@@ -8,7 +8,7 @@ const logger = require('morgan')
 const flash = require('express-flash')
 const mainRoutes = require('./routes/mainRoutes')
 const postRoutes = require('./routes/postRoutes')
-
+const cors = require('cors')
 require('dotenv').config({path: './config/.env'})
 
 require("./config/passport")(passport);
@@ -26,7 +26,7 @@ app.use(express.static('public'))
 app.use(express.json({limit: '50mb'}))
 app.use(express.urlencoded({limit: '50mb', extended: true}))
 app.use(logger('dev'))
-
+app.use(cors())
 // Sessions
 app.use(
     session({
