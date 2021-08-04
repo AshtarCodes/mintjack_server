@@ -2,9 +2,9 @@
 
 This is our flavor of blackjack, developed for the MintBean Hackathon. Thanks for checking it out! 😉  
 
-**Link to hosted webapp:** https://mintjackreact.herokuapp.com/ \
+**Link to hosted webapp:** https://mintjackreact.herokuapp.com/ 
 
-**Link to the front-end source code:** https://github.com/AshtarCodes/mintjack_react \
+**Link to the front-end source code:** https://github.com/AshtarCodes/mintjack_react 
 
 ### :construction: This webapp is actively under construction! ###
 
